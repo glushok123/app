@@ -6,10 +6,14 @@ use App\Dto\FeedBackDto;
 use App\Entity\FeedBack;
 use App\Repository\FeedBackRepository;
 use App\Repository\SettingRepository;
+use DateTimeImmutable;
 use Symfony\Bridge\Twig\Mime\TemplatedEmail;
 use Symfony\Component\Mailer\Exception\TransportExceptionInterface;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Mime\Email;
+use Symfony\Component\Notifier\Bridge\Telegram\TelegramOptions;
+use Symfony\Component\Notifier\ChatterInterface;
+use Symfony\Component\Notifier\Message\ChatMessage;
 
 class FeedBackService
 {
@@ -19,6 +23,8 @@ class FeedBackService
         private readonly FeedBackRepository $repository,
         private readonly SettingRepository  $settingRepository,
         private readonly MailerInterface    $mailer,
+        private readonly ChatterInterface   $chatter,
+
     )
     {
     }
@@ -26,16 +32,25 @@ class FeedBackService
     public function create(FeedBackDto $dto)
     {
         $feedBack = new FeedBack();
-        $feedBack->setEmail($dto->email);
         $feedBack->setName($dto->name);
         $feedBack->setPhone($dto->phone);
-        $feedBack->setMessage($dto->message);
-        $feedBack->setBook($dto->book);
+        $feedBack->setCreatedAt(new DateTimeImmutable());
 
         $this->repository->save($feedBack);
-        $this->sendEmail($feedBack);
+        //$this->sendEmail($feedBack);
 
-        return $feedBack->getId();
+        $chatMessage = new ChatMessage('
+            Обратная связь № ' . $feedBack->getId() . '
+            <pre>' . $feedBack->getName() . '</pre>
+            <pre>' . $feedBack->getPhone() . '</pre>
+        ');
+        $telegramOptions = (new TelegramOptions())
+            ->parseMode('html')
+        ;
+        $chatMessage->options($telegramOptions);
+        $this->chatter->send($chatMessage);
+
+        return "Обращение зарегистрировано! №" . $feedBack->getId();
     }
 
     /**
@@ -45,7 +60,7 @@ class FeedBackService
     {
         $email = (new TemplatedEmail())
             ->from('glushok19999@gmail.com')
-            ->to($this->settingRepository->findOneBy(['name' => 'sendEmail'])->getValue());
+            ->to('glushok19999@gmail.com');
 
         $email = $email
             ->priority(Email::PRIORITY_HIGH)

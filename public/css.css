@@ -1,0 +1,14 @@
+
+
+@font-face {
+    font-family: Futura Book Italic; /* Гарнитура шрифта */
+    src: url(fonts/FuturaBookC-Italic.eot); /* Для IE5-8 */
+    src: local(pompadur), url(fonts/FuturaBookC-Italic.ttf); /* Для остальных браузеров */
+   }
+
+   @font-face {
+    font-family: Futura PT Book; /* Гарнитура шрифта */
+    src: url(fonts/FuturaPT-Book.eot); /* Для IE5-8 */
+    src: local(pompadur), url(fonts/FuturaPT-Book.ttf); /* Для остальных браузеров */
+   }
+

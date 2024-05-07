@@ -1,0 +1,1477 @@
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+	/*
+	* ====================================
+	*  Hero Section One
+	* ====================================
+	*/
+	#hero-section-one .hero-contents {
+		padding-left: 40px;
+	}
+	/*
+	* ====================================
+	*  Hero Section One Background Image
+	* ====================================
+	*/
+	#hero-section-one-bg-image .hero-contents {
+		padding-left: 40px;
+	}
+	/*
+	* ====================================
+	*  Hero Section One Background Parallax
+	* ====================================
+	*/
+	#hero-section-one-bg-parallax .hero-contents {
+		padding-left: 40px;
+	}
+}
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	/*
+	* ====================================
+	*  Hero Section One
+	* ====================================
+	*/
+	#hero-section-one .hero-contents {
+		padding: 0 20px 0 40px;
+	}
+	/*
+	* ====================================
+	*  Hero Section One Background Image
+	* ====================================
+	*/
+	#hero-section-one-bg-image .hero-contents {
+		padding: 0 20px 0 40px;
+	}
+	/*
+	* ====================================
+	*  Hero Section One Background Parallax
+	* ====================================
+	*/
+	#hero-section-one-bg-parallax .hero-contents {
+		padding: 0 20px 0 40px;
+	}
+	/*
+	* ====================================
+	*  Rating Section
+	* ====================================
+	*/
+	#rating-section .rating-item {
+		padding: 50px 15px 25px;
+	}
+	/*
+	* ====================================
+	*  About Section Two
+	* ====================================
+	*/
+	#about-section-two .about-section-left .text-box {
+		margin-top: 10px;
+	}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/*
+	* ====================================
+	*  Defult CSS 
+	* ====================================
+	*/
+	.side-padding {
+		padding: 0;
+	}
+	/*
+	* ====================================
+	*  Header One
+	* ====================================
+	*/
+	.header-one .header-menu>ul>li>a {
+		padding: 5px 8px;
+	}
+	/*
+	* ====================================
+	*  Header Two
+	* ====================================
+	*/
+	.header-two .header-logo {
+		width: 120px;
+	}
+	.header-two .header-menu>ul>li>a {
+		padding: 33px 8px;
+	}
+	.header-two.sticky.active .header-menu>ul>li>a {
+		padding: 15px 8px;
+	}
+	/*
+	* ====================================
+	*  Header Three
+	* ====================================
+	*/
+	.header-three {
+		padding: 0 15px;
+		left: 0;
+		right: 0;
+	}
+	.header-three .header-logo {
+		width: 100px;
+	}
+	.header-three .header-menu>ul>li>a {
+		padding: 5px 12px;
+	}
+	.header-three .header-menu>ul.social-icons>li>a {
+		padding: 20px 4px;
+	}
+	/*
+	* ====================================
+	*  Hero Section One
+	* ====================================
+	*/
+	#hero-section-one .hero-contents {
+		padding: 0 20px 0 40px;
+	}
+	/*
+	* ====================================
+	*  Hero Section One Background Image
+	* ====================================
+	*/
+	#hero-section-one-bg-image .hero-contents {
+		padding: 0 20px 0 40px;
+	}
+	/*
+	* ====================================
+	*  Hero Section One Background Parallax
+	* ====================================
+	*/
+	#hero-section-one-bg-parallax .hero-contents {
+		padding: 0 20px 0 40px;
+	}
+	/*
+	* ====================================
+	*  Rating Section
+	* ====================================
+	*/
+	#rating-section .rating-item {
+		padding: 20px 15px;
+	}
+	#rating-section .rating-item p {
+		display: none;
+	}
+	#rating-section .rating-item .rating {
+		font-size: 50px;
+		margin-top: 20px;
+	}
+	/*
+	* ====================================
+	*  Rating Section Two
+	* ====================================
+	*/
+	#rating-section-two {
+		padding: 100px 0 50px;
+	}
+	#rating-section-two .rating-item {
+		max-width: 300px;
+		margin: 0 auto 50px;
+	}
+	#rating-section-two .rating-item h3 {
+		margin-bottom: 10px;
+	}
+	/*
+	* ====================================
+	*  About Section
+	* ====================================
+	*/
+	#about-section .about-section-right {
+		padding-top: 0;
+	}
+	/*
+	* ====================================
+	*  About Section Two
+	* ====================================
+	*/
+	#about-section-two .about-section-left .text-box {
+		font-size: 18px;
+		margin-top: 5px;
+	}
+	#about-section-two .about-section-left .text-box .knockout {
+		font-size: 75px;
+	}
+	#about-section-two .about-section-right {
+		padding-top: 0;
+	}
+	/*
+	* ====================================
+	*  About Section Three
+	* ====================================
+	*/
+	#about-section-three .about-section-left {
+		padding: 20px;
+	}
+	#about-section-three .about-section-right {
+		padding-top: 30px;
+	}
+	/*
+	* ====================================
+	*  Featured Section Two
+	* ====================================
+	*/
+	#featured-section-two .featured-item {
+		padding: 30px 0 0 75px;
+	}
+	#featured-section-two .featured-item .number {
+		font-size: 60px;
+	}
+	/*
+	* ====================================
+	*  Featured Section Three
+	* ====================================
+	*/
+	#featured-section-three .featured-item-left {
+		padding: 0 50px 0 0;
+	}
+	#featured-section-three .featured-item-left img {
+		max-width: 30px;
+	}
+	#featured-section-three .featured-item-right {
+		padding: 0 0 0 50px;
+	}
+	#featured-section-three .featured-item-right img {
+		max-width: 30px;
+	}
+	/*
+	* ====================================
+	*  Portfolio Section
+	* ====================================
+	*/
+	#portfolio-section .portfolio-item .overlay a {
+		width: 75px;
+	}
+	/*
+	* ====================================
+	*  Portfolio Section Two
+	* ====================================
+	*/
+	#portfolio-section-two .portfolio-item .overlay a {
+		width: 40px;
+		margin-top: 20px;
+	}
+	#portfolio-section-two .portfolio-item:hover .overlay a {
+		-webkit-transform: translateX(20px);
+		-ms-transform: translateX(20px);
+		transform: translateX(20px);
+	}
+	#portfolio-section-two .portfolio-item .overlay .title {
+		left: 20px;
+	}
+	#portfolio-section-two .portfolio-item:hover .overlay .title {
+		bottom: 20px;
+	}
+	/*
+	* ====================================
+	*  Portfolio Section Three
+	* ====================================
+	*/
+	#portfolio-section-three .portfolio-item,
+	#portfolio-section-three .portfolio-item-sizer {
+		width: 50%;
+	}
+	/*
+	* ====================================
+	*  Pricing Table Section
+	* ====================================
+	*/
+	#pricing-table-section .pricing-table-item {
+		padding: 40px 15px;
+	}
+	/*
+	* ====================================
+	*  FAQ Section
+	* ====================================
+	*/
+	#faq-section .card .btn {
+		font-size: 16px;
+	}
+	/*
+	* ====================================
+	*  CTA Section Two
+	* ====================================
+	*/
+	#cta-section-two .cta-left h3 {
+		font-size: 18px;
+	}
+	/*
+	* ====================================
+	*  Service Section Three
+	* ====================================
+	*/
+	#service-section-three .service-item {
+		padding: 60px 15px 30px;
+	}
+	/*
+	* ====================================
+	*  Team Section Two
+	* ====================================
+	*/
+	#team-section-two .team-item .image-box .social-icon-box {
+		height: 45px;
+	}
+	#team-section-two .team-item .image-box .social-icon li {
+		margin-right: 5px;
+	}
+	#team-section-two .team-item .image-box .social-icon li a {
+		width: 30px;
+		height: 30px;
+		line-height: 27px;
+	}
+	/*
+	* ====================================
+	*  Team Section Three
+	* ====================================
+	*/
+	#team-section-three .team-item .image-box .social-icon-box {
+		height: 45px;
+	}
+	#team-section-three .team-item .image-box .social-icon li {
+		margin-right: 5px;
+	}
+	#team-section-three .team-item .image-box .social-icon li a {
+		width: 30px;
+		height: 30px;
+		line-height: 27px;
+	}
+	/*
+	* ====================================
+	*  Sidebar
+	* ====================================
+	*/
+	.sidebar-widget {
+		padding: 25px 15px;
+	}
+	.sidebar-widget .sidebar-single-post .image-box {
+		height: 60px;
+	}
+	.sidebar-widget .sidebar-single-review .image-box {
+		height: 60px;
+	}
+	/*
+	* ====================================
+	*  Footer Area One
+	* ====================================
+	*/
+	.footer-one .footer-widget .single-post .image-box {
+		height: 60px;
+	}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	/*
+	* ====================================
+	*  Defult CSS 
+	* ====================================
+	*/
+	.inline-form-primary input {
+		width: calc(100% - 140px);
+	}
+	.inline-form-primary button {
+		width: 140px;
+	}
+	.side-padding {
+		padding: 0;
+	}
+	/*
+	* ====================================
+	*  Typograpgy
+	* ====================================
+	*/
+	h1 {
+		font-size: 25px;
+	}
+	h2 {
+	    font-size: 25px;
+	    margin-bottom: 15px;
+	}
+	.small-primary {
+	    font-size: 20px;
+	    margin-bottom: 10px;
+	}
+	.section-header {
+	    margin-bottom: 35px;
+	}
+	/*
+	* ====================================
+	*  Header One
+	* ====================================
+	*/
+	.header-one .top-bar {
+		display: none;
+	}
+	.header-one .header-logo {
+		width: 100px;
+	}
+	.header-one #main-menu {
+		display: none;
+	}
+	.header-one .header-menu>ul>li>a {
+		padding: 5px 8px;
+	}
+	.header-one .mobile-menu {
+		display: block;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		background: none;
+		top: 35px;
+	}
+	.header-one .slicknav_menu {
+		padding: 0;
+		background: #c79153;
+	}
+	.header-one .slicknav_menu .slicknav_btn {
+		margin: 0;
+		background-color: #c79153;
+		
+		margin-top: -32px;
+		border-radius: 0;
+	}
+	.header-one .slicknav_menu .slicknav_icon-bar {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.header-one .slicknav_nav a:hover {
+		background: #b87f3d;
+		color: #ffffff;
+	}
+	/*
+	* ====================================
+	*  Header Two
+	* ====================================
+	*/
+	.header-two {
+		padding: 5px 0;
+	}
+	.header-two .header-logo {
+		width: 100px;
+		padding: 5px 0;
+	}
+	.header-two.sticky.active .header-logo {
+		padding: 5px 0;
+	}
+	.header-two #main-menu {
+		display: none;
+	}
+	.header-two .header-menu>ul>li>a {
+		padding: 5px 8px;
+	}
+	.header-two.sticky.active .header-menu>ul>li>a {
+		padding: 5px 8px;
+	}
+	.header-two .mobile-menu {
+		display: block;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		background: none;
+		top: 35px;
+		z-index: 10;
+	}
+	.header-two .slicknav_menu {
+		padding: 0;
+		background: #c79153;
+	}
+	.header-two .slicknav_menu .slicknav_btn {
+		margin: 0;
+		background-color: #c79153;
+		margin-right: 85px;
+		margin-top: -32px;
+		border-radius: 0;
+	}
+	.header-two .slicknav_menu .slicknav_icon-bar {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.header-two .slicknav_nav a:hover {
+		background: #b87f3d;
+		color: #ffffff;
+	}
+	/*
+	* ====================================
+	*  Header Three
+	* ====================================
+	*/
+	.header-three {
+		padding: 5px 15px;
+		left: 0;
+		right: 0;
+	}
+	.header-three .header-logo {
+		width: 90px;
+		padding: 5px 0;
+	}
+	.header-three #main-menu {
+		display: none;
+	}
+	.header-three .mobile-menu {
+		display: block;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		background: none;
+		top: 35px;
+		z-index: 10;
+	}
+	.header-three .slicknav_menu {
+		padding: 0;
+		background: #c79153;
+	}
+	.header-three .slicknav_menu .slicknav_btn {
+		margin: 0;
+		background-color: #c79153;
+		margin-right: 15px;
+		margin-top: -32px;
+		border-radius: 0;
+	}
+	.header-three .slicknav_menu .slicknav_icon-bar {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.header-three .slicknav_nav a:hover {
+		background: #b87f3d;
+		color: #ffffff;
+	}
+	.header-three .header-menu>ul {
+		margin-right: 55px;
+	}
+	.header-three .header-menu .separator {
+		display: none;
+	}
+	.header-three .header-menu>ul.social-icons>li>a {
+		font-size: 14px;
+		padding: 5px 2px;
+	}
+	/*
+	* ====================================
+	*  Hero Section One
+	* ====================================
+	*/
+	#hero-section-one .hero-slider-item .date,
+	#hero-section-one .social-icons,
+	#hero-section-one .copy-right,
+	#hero-section-one .video-play {
+		display: none;
+	}
+	#hero-section-one .hero-slider-item p {
+	    margin-bottom: 25px;
+	}
+	#hero-section-one .hero-slider-item .button-primary {
+		margin-bottom: 15px;
+	}
+	/*
+	* ====================================
+	*  Hero Section One Background Image
+	* ====================================
+	*/
+	#hero-section-one-bg-image .date,
+	#hero-section-one-bg-image .social-icons,
+	#hero-section-one-bg-image .copy-right,
+	#hero-section-one-bg-image .video-play {
+		display: none;
+	}
+	#hero-section-one-bg-image .hero-contents .button-primary {
+		margin-bottom: 15px;
+	}
+	#hero-section-one-bg-image .hero-contents p {
+		margin-bottom: 25px;
+	}
+	/*
+	* ====================================
+	*  Hero Section One Background Parallax
+	* ====================================
+	*/
+	#hero-section-one-bg-parallax .date,
+	#hero-section-one-bg-parallax .social-icons,
+	#hero-section-one-bg-parallax .copy-right,
+	#hero-section-one-bg-parallax .video-play {
+		display: none;
+	}
+	#hero-section-one-bg-parallax .hero-contents .button-primary {
+		margin-bottom: 15px;
+	}
+	#hero-section-one-bg-parallax .hero-contents p {
+		margin-bottom: 25px;
+	}
+	/*
+	* ====================================
+	*  Hero Section Two
+	* ====================================
+	*/
+	#hero-section-two .hero-slider-item .btn {
+		margin: 5px;
+	}
+	#hero-section-two .owl-prev {
+		position: absolute;
+		left: 15px;
+		top: 50%;
+		margin-top: -16px;
+	}
+	#hero-section-two .owl-prev img {
+		width: 40px;
+	}
+	#hero-section-two .owl-next {
+		position: absolute;
+		right: 15px;
+		top: 50%;
+		margin-top: -16px;
+	}
+	#hero-section-two .owl-next img {
+		width: 40px;
+	}
+	/*
+	* ====================================
+	*  Hero Section Two Background Image
+	* ====================================
+	*/
+	#hero-section-two-bg-image .btn {
+		margin: 5px;
+	}
+	/*
+	* ====================================
+	*  Hero Section Two Background Parallax
+	* ====================================
+	*/
+	#hero-section-two-bg-parallax .btn {
+		margin: 5px;
+	}
+	/*
+	* ===============================
+	*  Hero Section Three
+	* ===============================
+	*/
+	#hero-section-three .owl-dots {
+		right: 15px;
+	}
+	/*
+	* ====================================
+	*  Sliding Sidebar
+	* ====================================
+	*/
+	.sliding-sidebar {
+		width: 300px;
+	}
+	.sliding-sidebar.active {
+		margin-left: -300px;
+	}
+	/*
+	* ====================================
+	*  Featured Section Two
+	* ====================================
+	*/
+	#featured-section-two {
+		padding: 60px 0 20px;
+	}
+	#featured-section-two .featured-item {
+		padding: 20px 0 0 70px;
+		margin: 0 15px 40px;
+	}
+	#featured-section-two .featured-item .number {
+		font-size: 50px;
+	}
+	#featured-section-two .featured-item h3 {
+		margin-bottom: 5px;
+	}
+	/*
+	* ====================================
+	*  Rating Section
+	* ====================================
+	*/
+	#rating-section .rating-item {
+		display: none;
+	}
+	/*
+	* ====================================
+	*  Rating Section Two
+	* ====================================
+	*/
+	#rating-section-two {
+		padding: 60px 0 10px;
+	}
+	#rating-section-two .rating-item {
+		max-width: 300px;
+		margin: 0 auto 50px;
+	}
+	#rating-section-two .rating-item h3 {
+		margin-bottom: 10px;
+	}
+	#rating-section-two .rating-item .circlechart {
+		margin-top: 15px;
+	}
+	#rating-section-two .rating-item .circlechart .circle-chart {
+		width: 80px;
+		height: 80px;
+	}
+	/*
+	* ====================================
+	*  About Section
+	* ====================================
+	*/
+	#about-section {
+		padding: 60px 0;
+	}
+	#about-section .about-section-right {
+		padding-top: 0;
+		margin-bottom: 60px;
+	}
+	#about-section .about-section-right h2 {
+	    margin-bottom: 20px;
+	}
+	#about-section .about-section-right .lead {
+	    margin-bottom: 20px;
+	}
+	#about-section .about-section-right .button-primary {
+	    margin-top: 15px;
+	}
+	/*
+	* ====================================
+	*  About Section Two
+	* ====================================
+	*/
+	#about-section-two {
+	    padding: 60px 0;
+	}
+	#about-section-two .about-section-left {
+		max-width: 360px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	#about-section-two .about-section-left .text-box {
+		font-size: 14px;
+		margin-top: 5px;
+	}
+	#about-section-two .about-section-left .text-box .knockout {
+		font-size: 70px;
+	}
+	#about-section-two .about-section-right {
+		padding-top: 0;
+		margin-bottom: 60px;
+	}
+	#about-section-two .about-section-right h2 {
+		margin-bottom: 20px;
+	}
+	#about-section-two .about-section-right .lead {
+		margin-bottom: 20px;
+	}
+	#about-section-two .about-section-right .button-primary {
+		margin-top: 15px;
+	}
+	/*
+	* ====================================
+	*  About Section Three
+	* ====================================
+	*/
+
+	#about-section-three {
+		padding: 60px 0;
+	}
+	#about-section-three .about-section-left {
+		padding: 0;
+	}
+	#about-section-three .about-section-right {
+		padding-top: 0;
+		margin-bottom: 60px;
+	}
+	#about-section-three .about-section-right h2 {
+	    margin-bottom: 20px;
+	}
+	/*
+	* ====================================
+	*  Featured Section
+	* ====================================
+	*/
+	#featured-section {
+		padding: 0 0 30px;
+	}
+	#featured-section .featured-item {
+		margin-bottom: 30px;
+	}
+	/*
+	* ====================================
+	*  Featured Section Three
+	* ====================================
+	*/
+	#featured-section-three {
+	    padding: 60px 0;
+	}
+	#featured-section-three .featured-item-left {
+		padding: 0 15px 0 75px;
+		text-align: left;
+		margin-bottom: 40px;
+	}
+	#featured-section-three .featured-item-left:first-of-type {
+	    margin-top: 0;
+	}
+	#featured-section-three .featured-item-left img {
+		left: 0;
+	}
+	#featured-section-three .featured-item-left:last-of-type {
+		margin-bottom: 50px;
+	}
+	#featured-section-three .featured-item-right {
+		margin-bottom: 40px;
+	}
+	#featured-section-three .featured-item-right:first-of-type {
+		margin-top: 50px;
+	}
+	/*
+	* ====================================
+	*  Service Section
+	* ====================================
+	*/
+	#service-section {
+	    padding: 60px 0 10px;
+	}
+	#service-section .service-item {
+		margin: 50px 0;
+	}
+	/*
+	* ====================================
+	*  Service Section Two
+	* ====================================
+	*/
+	#service-section-two {
+		padding: 60px 0 10px;
+	}
+	#service-section-two .service-item {
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto 50px;
+	}
+	/*
+	* ====================================
+	*  Service Section Three
+	* ====================================
+	*/
+	#service-section-three {
+	    padding: 60px 0 10px;	}
+	#service-section-three .service-item {
+		padding: 60px 15px 30px;
+		margin: 50px 0;
+	}
+	/*
+	* ====================================
+	*  Portfolio Section
+	* ====================================
+	*/
+	#portfolio-section {
+		padding: 60px 0;
+	}
+	#portfolio-section .portfolio-item-controls {
+		position: inherit;
+		bottom: 0;
+		right: 0;
+	}
+	#portfolio-section .portfolio-item-list {
+	    margin-top: 30px;
+	}
+	#portfolio-section .portfolio-item .overlay a {
+		width: 50px;
+	}
+	#portfolio-section .portfolio-item .overlay .title {
+		left: 15px;
+	}
+	#portfolio-section .portfolio-item:hover .overlay .title {
+		bottom: 15px;
+	}
+	#portfolio-section .portfolio-item,
+	#portfolio-section .portfolio-item-sizer {
+		width: 50%;
+	}
+	/*
+	* ====================================
+	*  Portfolio Section Two
+	* ====================================
+	*/
+	#portfolio-section-two {
+	    padding: 60px 0 0;
+	}
+	#portfolio-section-two .portfolio-item-controls {
+	    margin: 20px 0 30px;
+	}
+	#portfolio-section-two .portfolio-item,
+	#portfolio-section-two .portfolio-item-sizer {
+		width: 50%;
+	}
+	#portfolio-section-two .portfolio-item .overlay a {
+		width: 40px;
+		margin-top: 20px;
+	}
+	#portfolio-section-two .portfolio-item:hover .overlay a {
+		-webkit-transform: translateX(20px);
+		-ms-transform: translateX(20px);
+		transform: translateX(20px);
+	}
+	#portfolio-section-two .portfolio-item .overlay .title {
+		left: 20px;
+	}
+	#portfolio-section-two .portfolio-item:hover .overlay .title {
+		bottom: 20px;
+	}
+	/*
+	* ====================================
+	*  Portfolio Section Three
+	* ====================================
+	*/
+	#portfolio-section-three {
+	    padding: 60px 0 0;
+	}
+	#portfolio-section-three .portfolio-item-controls {
+		position: inherit;
+		bottom: 0;
+		right: 0;
+	}
+	#portfolio-section-three .portfolio-item-list {
+	    margin-top: 30px;
+	}
+	#portfolio-section-three .portfolio-item,
+	#portfolio-section-three .portfolio-item-sizer {
+		width: 50%;
+	}
+	#portfolio-section-three .portfolio-item .overlay .contents a {
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		margin: 0 auto 10px;
+	}
+	#portfolio-section-three .portfolio-item .overlay .contents small {
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+	#portfolio-section-three .portfolio-item .overlay .contents h3 {
+		font-size: 20px;
+	}
+	/*
+	* ====================================
+	*  Portfolio Section Four
+	* ====================================
+	*/
+	#portfolio-section-four .portfolio-item .contents {
+		padding: 0 50px 15px 15px;
+	}
+	#portfolio-section-four .portfolio-item .contents a {
+		right: 15px;
+		bottom: 20px;
+		width: 30px;
+	}
+	/*
+	* ====================================
+	*  Single Portfolio Section
+	* ====================================
+	*/
+	#single-portfolio-section .single-portfolio-left {
+		margin-bottom: 50px;
+	}
+	/*
+	* ====================================
+	*  Pricing Table Section
+	* ====================================
+	*/
+	#pricing-table-section {
+		padding: 60px 0 10px;
+	}
+	#pricing-table-section .pricing-table-item {
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto 50px;
+		padding: 30px;
+	}
+	#pricing-table-section .pricing-table-item .price {
+		margin-bottom: 35px;
+	}
+	#pricing-table-section .pricing-table-item ul li {
+	    margin-bottom: 15px;
+	}
+	#pricing-table-section .pricing-table-item .btn {
+	    margin-top: 35px;
+	}
+	/*
+	* ====================================
+	*  Image Gallery Section
+	* ====================================
+	*/
+	#image-gallery-section .tab-content .tab-pane {
+		height: 350px;
+	}
+	#image-gallery-section .tab-content .nav.nav-tabs li {
+		width: 50%;
+	}
+	#image-gallery-section .tab-content .nav.nav-tabs li .nav-link {
+		font-size: 16px;
+		padding: 10px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	}
+	/*
+	* ====================================
+	*  Awards Section
+	* ====================================
+	*/
+	#awards-section {
+		padding: 60px 0 30px;
+	}
+	/*
+	* ====================================
+	*  FAQ Section
+	* ====================================
+	*/
+	#faq-section {
+		padding: 60px 0 40px;
+	}
+	#faq-section .faq-featured-image {
+		margin-bottom: 60px;
+	}
+	/*
+	* ====================================
+	*  Work Process Section
+	* ====================================
+	*/
+	#work-process-section {
+	    padding: 60px 0 10px;
+	}
+	#work-process-section .work-process-item .icon-box {
+		width: 80px;
+		height: 80px;
+		font-size: 35px;
+		line-height: 75px;
+	}
+	/*
+	* ====================================
+	*  CTA Section
+	* ====================================
+	*/
+	#cta-section {
+		text-align: center;
+	}
+	#cta-section .cta-right {
+		text-align: center;
+		margin-top: 10px;
+	}
+	/*
+	* ====================================
+	*  CTA Section Two
+	* ====================================
+	*/
+	#cta-section-two .cta-left,
+	#cta-section-two .cta-right {
+		text-align: center;
+	}
+	#cta-section-two .form-control {
+		max-width: 300px;
+		margin: 0 auto 15px;
+	}
+	/*
+	* ====================================
+	*  CTA Section Three
+	* ====================================
+	*/
+	#cta-section-three {
+		text-align: center;
+	}
+	#cta-section-three .cta-right {
+		text-align: center;
+		margin-top: 10px;
+	}
+	/*
+	* ====================================
+	*  Team Section
+	* ====================================
+	*/
+	#team-section {
+		padding: 60px 0 10px;
+	}
+	#team-section .team-item {
+		max-width: 250px;
+		margin: 0 auto 50px;
+	}
+	/*
+	* ====================================
+	*  Team Section Two
+	* ====================================
+	*/
+	#team-section-two {
+		padding: 60px 0 10px;
+	}
+	#team-section-two .team-item {
+		max-width: 250px;
+		margin: 0 auto 50px;
+	}
+	/*
+	* ====================================
+	*  Team Section Three
+	* ====================================
+	*/
+	#team-section-three {
+		padding: 60px 0 10px;
+	}
+	#team-section-three .team-item {
+		max-width: 250px;
+		margin: 0 auto 50px;
+	}
+	/*
+	* ====================================
+	*  Testimonial Section
+	* ====================================
+	*/
+	#testimonial-section {
+		padding: 60px 0 45px;
+	}
+	#testimonial-section .owl-dots {
+	    margin-top: 30px;
+	}
+	/*
+	* ====================================
+	*  Testimonial Section Two
+	* ====================================
+	*/
+	#testimonial-section-two {
+		padding: 60px 0 40px;
+	}
+	#testimonial-section-two .testimonial-carousel-item .image-box {
+		width: 100px;
+		margin: 0 auto 15px;
+		float: inherit;
+	}
+	#testimonial-section-two .testimonial-carousel-item .image-box i {
+		font-size: 22px;
+		top: 10px;
+	}
+	#testimonial-section-two .testimonial-carousel-item .text-box {
+		width: 100%;
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#testimonial-section-two .testimonial-carousel-item p {
+		font-size: 18px;
+		line-height: 1.4em;
+	}
+	#testimonial-section-two .owl-dots {
+		margin-top: 20px;
+	}
+	/*
+	* ====================================
+	*  Testimonial Section Three
+	* ====================================
+	*/
+	#testimonial-section-three {
+	    padding: 60px 0 50px;
+	}
+	#testimonial-section-three .owl-prev,
+	#testimonial-section-three .owl-next {
+		width: 40px;
+	}
+	/*
+	* ====================================
+	*  Before After Section
+	* ====================================
+	*/
+	#before-after-section {
+	    padding: 60px 0;
+	}
+	/*
+	* ====================================
+	*  Our Clients Section
+	* ====================================
+	*/
+
+	#our-clients-section {
+	    padding: 60px 0 10px;
+	}
+	#our-clients-section .client-logo {
+	    padding: 20px 10px;
+	    margin: 0 auto 30px;
+	}
+	/*
+	* ====================================
+	*  Blog Section
+	* ====================================
+	*/
+	#blog-section {
+		padding: 60px 0 10px;
+	}
+	#blog-section .single-post {
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto 50px;
+	}
+	/*
+	* ====================================
+	*  Blog Section Two
+	* ====================================
+	*/
+	#blog-section-two {
+		padding: 60px 0 10px;
+	}
+	#blog-section-two .single-post {
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto 50px;
+	}
+	/*
+	* ====================================
+	*  Coming Soon Section
+	* ====================================
+	*/
+	#coming-soon-section {
+		min-height: 100vh;
+		height: 100%;
+	}
+	#coming-soon-section .contents {
+		position: inherit;
+		top: inherit;
+		left: inherit;
+		-webkit-transform: inherit;
+		-ms-transform: inherit;
+		transform: inherit;
+		padding-top: 100px;
+	}
+	#coming-soon-section .wrapper .time {
+		font-size: 22px;
+		width: 55px;
+		height: 55px;
+		line-height: 55px;
+		margin-bottom: 10px;
+	}
+	#coming-soon-section .wrapper .label {
+		font-size: 12px;
+		margin-bottom: 30px;
+	}
+	/*
+	* ====================================
+	*  Page Header Section
+	* ====================================
+	*/
+	#page-header-section {
+		padding: 80px 0 40px;
+	}
+	/*
+	* ====================================
+	*  Page Header Section Two
+	* ====================================
+	*/
+	#page-header-section-two {
+		padding: 40px 0;
+		margin-top: 44px;
+	}
+	/*
+	* ====================================
+	*  Page Header Section Three
+	* ====================================
+	*/
+	#page-header-section-three {
+		padding: 40px 0;
+		margin-top: 44px;
+	}
+	/*
+	* ====================================
+	*  Footer Area One
+	* ====================================
+	*/
+	.footer-one .footer-top {
+		padding: 60px 0 10px;
+	}
+	.footer-one .footer-widget {
+		margin-bottom: 50px;
+	}
+	.footer-one .footer-bottom .footer-bottom-right ul {
+		margin-bottom: 10px;
+	}
+	.footer-one .footer-bottom,
+	.footer-one .footer-bottom .footer-bottom-right {
+		text-align: center;
+	}
+	/*
+	* ====================================
+	*  Footer Area Two
+	* ====================================
+	*/
+	.footer-two .footer-top {
+		padding: 60px 0 10px;
+	}
+	.footer-two .footer-widget {
+		margin-bottom: 50px;
+	}
+	.footer-two .footer-widget .link-list li {
+		margin-bottom: 15px;
+	}
+	.footer-two .footer-bottom .footer-bottom-right ul {
+		margin-bottom: 10px;
+	}
+	.footer-two .footer-bottom,
+	.footer-two .footer-bottom .footer-bottom-right {
+		text-align: center;
+	}
+	/*
+	* ====================================
+	*  Footer Area Three
+	* ====================================
+	*/
+	.footer-three .footer-top {
+		padding: 60px 0 10px;
+	}
+	.footer-three .footer-widget {
+		margin-bottom: 50px;
+	}
+	.footer-three .footer-bottom .footer-bottom-right ul {
+		margin-bottom: 10px;
+	}
+	.footer-three .footer-bottom,
+	.footer-three .footer-bottom .footer-bottom-right {
+		text-align: center;
+	}
+	/*
+	* ====================================
+	*  Contact Section
+	* ====================================
+	*/
+	#contact-section {
+	    padding: 60px 0;
+	}
+	#contact-section form {
+		margin-top: 40px;
+	}
+	/*
+	* ====================================
+	*  Contact Section Two
+	* ====================================
+	*/
+	#contact-section-two {
+	   
+	}
+	#contact-section-two form {
+		margin-top: 40px;
+	}
+	/*
+	* ====================================
+	*  Not Found Section
+	* ====================================
+	*/
+	#not-found-section h1 {
+		font-size: 150px;
+		line-height: 125px;
+	}
+	#not-found-section p {
+		font-size: 30px;
+		margin-bottom: 35px;
+	}
+	/*
+	* ====================================
+	*  Single Service Section
+	* ====================================
+	*/
+	#single-service-section {
+	    padding: 60px 0 50px;
+	}
+	/*
+	* ====================================
+	*  Single Portfolio Section
+	* ====================================
+	*/
+	#single-portfolio-section {
+	    padding: 60px 0 10px;
+	}
+	#related-portfolio-section {
+	    padding: 50px 0 10px;
+	}
+	/*
+	* ====================================
+	*  Single Post Section
+	* ====================================
+	*/
+	#single-post-section {
+	    padding: 60px 0 10px;
+	}
+	#single-post-section .single-post .share-icons {
+	    margin: 30px 0 50px;
+	}
+	#single-post-section .single-post hr {
+	    margin-bottom: 30px;
+	}
+	#single-post-section .single-post .comments-box .comment {
+	    margin-bottom: 30px;
+	}
+	#single-post-section .single-post .comments-box {
+	    margin-bottom: 20px;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	/*
+	* ====================================
+	*  Rating Section Two
+	* ====================================
+	*/
+	#rating-section-two .rating-item .circle-chart {
+		width: 120px;
+		height: 120px;
+	}
+	/*
+	* ====================================
+	*  About Section Two
+	* ====================================
+	*/
+	#about-section-two .about-section-left {
+		max-width: inherit;
+		width: inherit;
+		margin: inherit;
+	}
+	#about-section-two .about-section-left .text-box {
+		font-size: 25px;
+		margin-top: 25px;
+	}
+	#about-section-two .about-section-left .text-box .knockout {
+		font-size: 100px;
+	}
+	/*
+	* ====================================
+	*  Image Gallery Section
+	* ====================================
+	*/
+	#image-gallery-section .tab-content .tab-pane {
+		height: 400px;
+	}
+	#image-gallery-section .tab-content .nav.nav-tabs li {
+		width: 20%;
+	}
+	/*
+	* ====================================
+	*  Testimonial Section Two
+	* ====================================
+	*/
+	#testimonial-section-two .testimonial-carousel-item .image-box {
+		width: 150px;
+	}
+	#testimonial-section-two .testimonial-carousel-item .image-box i {
+		font-size: 35px;
+		top: 15px;
+	}
+	/*
+	* ====================================
+	*  Coming Soon Section
+	* ====================================
+	*/
+	#coming-soon-section .wrapper .time {
+		font-size: 40px;
+		width: 120px;
+		height: 120px;
+		line-height: 120px;
+		margin-bottom: 40px;
+	}
+	#coming-soon-section .wrapper .label {
+		font-size: 30px;
+	}
+}

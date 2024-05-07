@@ -1,228 +1,170 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-    <!-- Required meta tags -->
+    <script type="text/javascript" id="supportScript" charset="utf-8" async=""
+            src="//admin.verbox.ru/support/support.js?h=cfaafa1bc0e194587e89f7e9dd1fd60a"></script>
+
+    <script type="text/javascript">
+        /*document.ondragstart = noselect;
+        document.onselectstart = noselect;
+        document.oncontextmenu = noselect;
+
+        function noselect() {
+            return false;
+        }*/
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Treaser - Book landing template">
-    <meta name="keywords" content="Treaser,creative,author,book,ebook,marketing,digital, agency, startup,onepage, clean, modern,business, company">
+    <meta name="description"
+          content="Ремонт квартир в Москве под ключ с гарантией 5 лет  Низкие цены на ремонт с материалами Заказать отличный ремонт жилья в Москве с дизайн проектом Точные замеры на ремонт 0 руб. Договор и смета на работы">
+    <meta name="keywords"
+          content="Лендинг по ремонту квартир, шаблон лендинга по ремонту квартир и офисов, лендинг по ремонту офисов, купить лендинг по ремонту квартир и домов, дешевые лендинги, landing page, лендинг для услуг по ремонту квартир и офисов, готовый сайт по ремонту квартир">
 
-    <meta name="author" content="dreambuzz">
+    <title>Ремонт квартир и домов / «PLAKOZ»</title>
 
-    <title>{% block title %}{% endblock %}</title>
+    <link rel="icon" href="assets/img/favicon.ico" type="image/gif">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap-4.2.1.min.css">
+    <link rel="stylesheet" href="assets/vendor/fontawesome/fontawesome-5.6.3.min.css">
+    <link rel="stylesheet" href="assets/vendor/slicknav/css/slicknav-1.0.10.min.css">
+    <link rel="stylesheet" href="assets/vendor/lightbox/css/lightbox-2.10.0.min.css">
+    <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel-2.3.4.min.css">
+    <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.theme.default-2.3.4.min.css">
+    <link rel="stylesheet" href="assets/vendor/animate/animate-3.7.0.css">
+    <link rel="stylesheet" href="assets/vendor/pgw-slider/css/pgwslider-2.3.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Адаптивность -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-    <!-- bootstrap.min css -->
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Animate Css -->
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.min.css">
-    <script src="https://cdn.datatables.net/2.0.3/js/dataTables.min.js"></script>
 
+    <script src="assets/vendor/jquery/jquery-2.2.4.min.js"></script>
 
-    <!-- Latest compiled and minified CSS -->
-    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/2.0.0-beta1/js/bootstrap-select.min.js" integrity="sha512-Ks94O6MWV+hcOyqlaaOmsDe08l4+EFiDetgxBKAJ5I995UEn+u4DQ9ziANFLqpQhMLGbmCq02A/U3Tryjdgwcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/2.0.0-beta1/css/bootstrap-select.min.css" integrity="sha512-Q8vAB6GL+zb917fZJJJxO8TKJH5lZKsqnEDO+0oUjy5wpc/jYo5QpMuMx84n8m/gY/DitaK1j2DQeb/Vosudtg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/2.0.0-beta1/js/i18n/defaults-ru_RU.min.js" integrity="sha512-6nf1CdpbuZynDaUgXAVxRNvc23w7nM5JlihOSdsIkhG08Be/shDQP7ePUqIG9I1sq02zCxMJIwiyHRyJ8utCjA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script-->
-    <link rel="stylesheet" href="plugins/animate-css/animate.css">
-    <!--  icon Css -->
-    <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
-    <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
-    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.default.min.css">
-
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
-    <!-- Latest compiled and minified CSS -->
-    <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js" integrity="sha512-yDlE7vpGDP7o2eftkCiPZ+yuUyEcaBwoJoIhdXv71KZWugFqEphIS3PU60lEkFaz8RxaVsMpSvQxMBaKVwA5xg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css" integrity="sha512-ARJR74swou2y0Q2V9k0GbzQ/5vJ2RBSoCWokg4zkfM29Fb3vZEQyv0iWBMW/yvKgyHSR/7D64pFMmU8nYmbRkg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/i18n/defaults-ru_RU.min.js" integrity="sha512-vCLvbS0EcZMA9JDGOl0T8qNfJobkIzv2yaypJ9SPbG3lTK+Ljbz1oExQgHZ1/HZ8PBww5z/sPdLeVs6wQaNGFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 
-<body id="top-header">
+<body>
 <!-- Navigation Menu -->
 
 <!-- NAVBAR
 ================================================= -->
-<div class="main-navigation fixed-top site-header border-bottom" id="mainmenu-area">
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container align-items-center">
-            <a class="navbar-brand" href="/">
-                <h2 class="mb-0"><span class="text-color">Min</span>kukol</h2>
-            </a>
-            <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="ti-menu-alt"></span>
-            </button>
+<header class="header-one">
+    <div class="top-bar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7 top-bar-left">
+                    <ul style="text-align: center;">
+                        <li><i class="fa fa-clock"></i>&nbsp;&nbsp;График работы: 10.00 - 20.00 ПН-СБ</li>
+                        <li><i class="fa fa-phone"></i>&nbsp;&nbsp; Телефон: <a href="tel:(+080)46893578">8-(999)-999-9999</a>
+                        </li>
+                        <li><i class="fa fa-envelope"></i>&nbsp;&nbsp; Почта: <a href="mailto:remont-kvar@info.ru">remont-kvar@info.ru</a>
+                        </li>
+                        <li><i class="fa fa-map"></i>&nbsp;&nbsp;Адрес: Россия, г. Москва, ул.Ленина 43а, офис 105</li>
+                    </ul>
+                </div>
 
-            <!-- Collapse -->
-            <div class="collapse navbar-collapse text-center text-lg-left" id="navbarmain">
-                <!-- Links -->
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a href="/" class="nav-link smoth-scroll">
-                            Главная
-                        </a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a href="/catalog" class="nav-link smoth-scroll">
-                            Каталог
-                        </a>
-                    </li>
-
-                    <li class="nav-item ">
-                        <a href="/scan" class="nav-link smoth-scroll">
-                            Сканирование
-                        </a>
-                    </li>
-
-                    <!--li class="nav-item ">
-                        <a href="#reviews" class="nav-link smoth-scroll">
-                            Вопросы и ответы
-                        </a>
-                    </li-->
-
-                    <li class="nav-item ">
-                        <a href="/catalog" class="nav-link smoth-scroll">
-                            Поиск
-                        </a>
-                    </li>
-
-                    <li class="nav-item ">
-                        <a href="#contact" class="nav-link smoth-scroll bg-danger text-white">
-                            Обратная связь
-                        </a>
-                    </li>
-
-                </ul>
             </div>
         </div>
-    </nav>
-</div>
+    </div>
+
+    <div class="header-nav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="assets/img/logo/logo1.png" alt=""></a>
+                    </div>
+                    <div class="header-menu">
+                        <ul id="main-menu">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="#info">О нас</a></li>
+                            <li><a href="#price">Услуги</a></li>
+                            <li><a href="#port">Проекты</a></li>
+                            <li><a href="#otziv">Отзывы</a></li>
+                            <li><a href="#contact">Контакты</a></li>
+
+                        </ul>
+
+                    </div>
+                    <div class="mobile-menu">
+                        <div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0"
+                                                      class="slicknav_btn slicknav_collapsed"><span
+                                        class="slicknav_menutxt"></span><span
+                                        class="slicknav_icon slicknav_no-text"><span
+                                            class="slicknav_icon-bar"></span><span
+                                            class="slicknav_icon-bar"></span><span
+                                            class="slicknav_icon-bar"></span></span></a>
+                            <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu"
+                                style="display: none;">
+                                <li><a href="index.html" role="menuitem" tabindex="-1">Главная</a></li>
+                                <li><a href="#info" role="menuitem" tabindex="-1">О нас</a></li>
+                                <li><a href="#price" role="menuitem" tabindex="-1">Услуги</a></li>
+                                <li><a href="#port" role="menuitem" tabindex="-1">Проекты</a></li>
+                                <li><a href="#otziv" role="menuitem" tabindex="-1">Отзывы</a></li>
+                                <li><a href="#contact" role="menuitem" tabindex="-1">Контакты</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<div class="body-overlay"></div>
 
 {% block body %}{% endblock %}
 
-<!-- Contact -->
-<hr>
-<section class="section contact " id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-lg-6">
-                <div class="section-heading">
-                    <h2 class="mb-2 text-lg">Обратная связь</h2>
-                    <p>Задайте свой вопрос!</p>
-                </div>
-            </div>
-        </div> <!-- / .row -->
 
-        <div class="row">
-            <div class="col-lg-9 col-sm-12 pr-5 col-md-8">
+<!-- Popper JS -->
+<script src="assets/vendor/popper/popper-1.14.6.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/js/bootstrap-4.2.1.min.js"></script>
+<!-- Slicknav JS -->
+<script src="assets/vendor/slicknav/js/jquery.slicknav-1.0.10.min.js"></script>
+<!-- Lightbox JS -->
+<script src="assets/vendor/lightbox/js/lightbox-2.10.0.min.js"></script>
+<!-- Owl Carousel JS -->
+<script src="assets/vendor/owl-carousel/js/owl.carousel-2.3.4.min.js"></script>
+<!-- Waypoints JS -->
+<script src="assets/vendor/waypoints/jquery.waypoints-2.0.3.min.js"></script>
+<!-- Counter Up JS -->
+<script src="assets/vendor/counterup/jquery.counterup-1.0.min.js"></script>
+<!-- WOW JS -->
+<script src="assets/vendor/wow/wow-1.3.0.min.js"></script>
+<!-- PGW Slider JS -->
+<script src="assets/vendor/pgw-slider/js/pgwslider-2.3.js"></script>
+<!-- Isotope JS -->
+<script src="assets/vendor/isotope/isotope.pkgd-3.0.6.min.js"></script>
+<!-- Countdown JS -->
+<script src="assets/vendor/countdown/countdown.jquery.js"></script>
+<!-- Paroller JS -->
+<script src="assets/vendor/paroller/jquery.paroller-1.4.6.min.js"></script>
+<!-- jQuery Validation Js -->
+<script src="assets/vendor/jquery-validation/jquery.validate-1.16.9.min.js"></script>
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
 
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                Your message was sent successfully.
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <input type="text" id="name" name="name" class="form-control" placeholder="Имя">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <input type="text" name="email" id="email" class="form-control" placeholder="Email">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <input type="text" name="phone" id="phone" class="form-control" placeholder="Телефон">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-12">
-                            <div class="form-group">
-                                <textarea id="message" name="message" cols="30" rows="6" class="form-control" placeholder="Вопрос"></textarea>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-12">
-                        <div class="d-lg-flex justify-content-between mt-4">
-                            <input name="submit" class="btn btn-main btn-rounded" value="Отправить сообщение" id="sendFeedBack">
-                        </div>
-                    </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-12 col-md-4">
-                <div class="contact-info-block mb-4 mt-5 mt-lg-0 mt-md-0">
-                    <h4 class="mb-2">Телефон</h4>
-                    <p>+7 (926) 153-50-35 </p>
-                </div>
-
-                <div class="contact-info-block mb-4">
-                    <h4 class="mb-2">Email</h4>
-                    <p>elena2557@yandex.ru</p>
-                </div>
-            </div>
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
+<div id="lightbox" class="lightbox" style="display: none;">
+    <div class="lb-outerContainer">
+        <div class="lb-container"><img class="lb-image"
+                                       src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+            <div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div>
+            <div class="lb-loader"><a class="lb-cancel"></a></div>
         </div>
     </div>
-</section>
-
-<!--  Footer start -->
-<footer class="footer bg-dark">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <p class="footer-copy text-white-50 mb-0">
-                    &copy; Copyright <span class="current-year">Minkukol</span> 2024
-                </p>
-            </div>
-        </div> <!-- / .row -->
+    <div class="lb-dataContainer">
+        <div class="lb-data">
+            <div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div>
+            <div class="lb-closeContainer"><a class="lb-close"></a></div>
+        </div>
     </div>
-</footer>
-
-
-<!--  Page Scroll to Top  -->
-<a class="scroll-to-top smoth-scroll" href="#top-header">
-    <i class="ti-angle-up"></i>
-</a>
-
-
-<!--
-Essential Scripts
-=====================================-->
-
-
-<!-- Main jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4.3.1 -->
-<script src="plugins/bootstrap/js/popper.min.js"></script>
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
-<script src="plugins/magnific-popup/jquery.magnific-popup.js"></script>
-<script src="plugins/slick-carousel/slick/slick.min.js"></script>
-<!-- Counter Js -->
-<script src="plugins/counterup/waypoint.js"></script>
-<script src="plugins/counterup/jquery.counterup.min.js"></script>
-<script src="js/contact.js"></script>
-<script src="js/theme.js"></script>
+</div>
 
 {% block script %}{% endblock %}
 
@@ -233,13 +175,13 @@ Essential Scripts
         $(document).on('click', '#sendFeedBack', function () {
             let saveMessage = false;
 
-            if ($('#email').val().length > 0){
+            if ($('#email').val().length > 0) {
                 saveMessage = true
             }
-            if ($('#phone').val().length > 0){
+            if ($('#phone').val().length > 0) {
                 saveMessage = true
             }
-            if (!saveMessage){
+            if (!saveMessage) {
                 alert('Заполните телефон или  email')
                 return;
             }

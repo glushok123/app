@@ -10,15 +10,19 @@ use App\Dto\Util\UploadImageResponseDto;
 use App\Service\BookService;
 use App\Service\FeedBackService;
 use App\Service\StaticTextService;
-use EasyCorp\Bundle\EasyAdminBundle\Contracts\Orm\EntityPaginatorInterface;
+use Knp\Component\Pager\PaginatorInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Attribute\MapQueryString;
 use Symfony\Component\HttpKernel\Attribute\MapRequestPayload;
+use Symfony\Component\Notifier\Bridge\Telegram\Reply\Markup\Button\InlineKeyboardButton;
+use Symfony\Component\Notifier\Bridge\Telegram\Reply\Markup\InlineKeyboardMarkup;
+use Symfony\Component\Notifier\Bridge\Telegram\TelegramOptions;
+use Symfony\Component\Notifier\ChatterInterface;
+use Symfony\Component\Notifier\Message\ChatMessage;
 use Symfony\Component\Routing\Annotation\Route;
-use Knp\Component\Pager\PaginatorInterface;
 
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
@@ -32,6 +36,7 @@ class HomeController extends AbstractController
 
     public function __construct(
         private readonly BookService       $bookService,
+        private readonly ChatterInterface           $chatter,
         private readonly FeedBackService   $feedBackService,
         private readonly StaticTextService $staticTextService,
     )
@@ -41,8 +46,15 @@ class HomeController extends AbstractController
     #[Route('/', name: 'app_home', methods: ['GET'])]
     public function home(): Response
     {
+
+        /*$chatMessage = new ChatMessage('Обратная связь № /n/n 123 /n 234 \n\n <pre>123</pre><pre>123</pre><pre>123</pre>');
+        $telegramOptions = (new TelegramOptions())
+            ->parseMode('html')
+            ;
+        $chatMessage->options($telegramOptions);
+        $this->chatter->send($chatMessage);*/
         return $this->render('index.html.twig', [
-            'text' => $this->staticTextService->get('main')
+            //'text' => $this->staticTextService->get('main')
         ]);
     }
 
@@ -76,7 +88,7 @@ class HomeController extends AbstractController
     #[Route('/feedback/create', name: 'app_feedback_create', methods: ['POST'])]
     public function createFeedback(#[MapRequestPayload] FeedBackDto $dto): Response
     {
-        return new JsonResponse(['id' => $this->feedBackService->create($dto)]);
+        return new JsonResponse(['text' => $this->feedBackService->create($dto)]);
     }
 
     #[Route('/upload-image', name: 'admin_image_upload')]
@@ -86,12 +98,12 @@ class HomeController extends AbstractController
         $dto = new \App\Dto\UploadImageRequestDto(
             file: $request->files->get('upload'),
             destination: 'image',
-           // host: $this->getParameter('main_host')
+        // host: $this->getParameter('main_host')
         );
 
         $file = $dto->file;
         $movePath = self::MOVE_PATH;
-        $hostPath =  '/upload';
+        $hostPath = '/upload';
         $name = 'article-' . date('Y-m-d_H-i-s') . '.' . $file->getClientOriginalExtension();
         if ($dto->destination == 'article') {
             $movePath = $movePath . self::ARTICLE_IMAGE_UPLOAD_PATH;
@@ -99,13 +111,13 @@ class HomeController extends AbstractController
         }
         $file->move($movePath, $name);
 
-        $newDto =  new \App\Dto\UploadImageResponseDto(
+        $newDto = new \App\Dto\UploadImageResponseDto(
             url: $hostPath . '/' . $name, uploaded: 1, fileName: $name
         );
 
-            return new JsonResponse(
-                $newDto->toArray()
-            );
+        return new JsonResponse(
+            $newDto->toArray()
+        );
 
     }
 }

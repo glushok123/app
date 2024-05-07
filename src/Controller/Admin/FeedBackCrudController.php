@@ -7,6 +7,7 @@ use App\Entity\FeedBack;
 use Doctrine\ORM\EntityManagerInterface;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
+use EasyCorp\Bundle\EasyAdminBundle\Field\DateTimeField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\IdField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextEditorField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
@@ -37,10 +38,11 @@ class FeedBackCrudController extends AbstractCrudController
     {
         return [
             TextField::new('name', 'ФИО'),
-            TextField::new('email', 'email'),
+            //TextField::new('email', 'email'),
             TextField::new('phone', 'Телефон'),
-            TextField::new('message', 'Сообщение'),
-            TextField::new('book', 'Книга с которой поступило обращение'),
+            DateTimeField::new('createdAt', 'Дата создания')->setDisabled(),
+            //TextField::new('message', 'Сообщение'),
+            //TextField::new('book', 'Книга с которой поступило обращение'),
         ];
     }
 

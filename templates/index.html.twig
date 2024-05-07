@@ -1,37 +1,742 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Главная{% endblock %}
-
 {% block body %}
-    <!-- Banner -->
-    <section class="banner-main py-7" id="banner">
+
+    <section id="hero-section-one">
+
+        <div class="owl-carousel hero-slider owl-loaded owl-drag">
+
+
+            <div class="owl-stage-outer">
+                <div class="owl-stage"
+                     style="transform: translate3d(-3882px, 0px, 0px); transition: all 0.8s ease 0s; width: 13587px;">
+                    <div class="owl-item cloned" style="width: 1941px;">
+                        <div class="hero-slider-item bg-two">
+                            <div class="d-table">
+                                <div class="d-table-cell">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-6">
+                                                <div class="hero-contents">
+                                                <span class="hero-counter animated slideInUp"
+                                                      style="opacity: 1;"></span>
+                                                    <h1 class="animated fadeInLeft" style="opacity: 1;">Эксклюзивный<br>Дизайн
+                                                        интерьера</h1>
+                                                    <p class="animated fadeInRight" style="opacity: 1;">Покажем как
+                                                        будет
+                                                        выглядить ваша квартира или дом за 10 дней! По вашим
+                                                        желаниям!</p>
+                                                    <a href="#port">
+                                                        <button class="btn button-primary animated slideInDown"
+                                                                style="opacity: 1;">Наши проекты
+                                                        </button>
+                                                    </a>
+                                                    <button class="btn button-secondary-white preview-block__btn custom-btn animated slideInDown"
+                                                            data-toggle="modal" data-target="#exampleModal"
+                                                            style="opacity: 1;">Задать вопрос
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="date">500 - выполненых объектов!</span>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 1941px;">
+                        <div class="hero-slider-item bg-three">
+                            <div class="d-table">
+                                <div class="d-table-cell">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-6">
+                                                <div class="hero-contents">
+                                                <span class="hero-counter animated slideInUp"
+                                                      style="opacity: 1;"></span>
+                                                    <h1 class="animated fadeInLeft" style="opacity: 1;">Качественный
+                                                        ремонт<br>Домов в Москве</h1>
+                                                    <p class="animated fadeInRight" style="opacity: 1;">Ремонт дома или
+                                                        коттеджа за 50 дней в Москве и области от 2000 руб/м2. С
+                                                        гарантией 3
+                                                        года!</p>
+                                                    <a href="#port">
+                                                        <button class="btn button-primary animated slideInDown"
+                                                                style="opacity: 1;">Наши проекты
+                                                        </button>
+                                                    </a>
+                                                    <button class="btn button-secondary-white preview-block__btn custom-btn animated slideInDown"
+                                                            data-toggle="modal" data-target="#exampleModal"
+                                                            style="opacity: 1;">Задать вопрос
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="date">Скидки на материалы 20%</span>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 1941px;">
+                        <div class="hero-slider-item bg-one">
+                            <div class="d-table">
+                                <div class="d-table-cell">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-6">
+                                                <div class="hero-contents">
+                                                <span class="hero-counter animated slideInUp"
+                                                      style="opacity: 1;"></span>
+                                                    <h1 class="animated fadeInLeft" style="opacity: 1;">Качественный
+                                                        ремонт<br>квартир в Москве</h1>
+                                                    <p class="animated fadeInRight" style="opacity: 1;">Ремонт квартир
+                                                        за 50
+                                                        дней в Москве и Москвоской области от 1500 руб/м2. С гарантией 3
+                                                        года!</p>
+                                                    <a href="#port">
+                                                        <button class="btn button-primary animated slideInDown"
+                                                                style="opacity: 1;">Наши проекты
+                                                        </button>
+                                                    </a>
+                                                    <button class="btn button-secondary-white preview-block__btn custom-btn animated slideInDown"
+                                                            data-toggle="modal" data-target="#exampleModal"
+                                                            style="opacity: 1;">Задать вопрос
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="date">Более 10 лет работы!</span>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 1941px;">
+                        <div class="hero-slider-item bg-two">
+                            <div class="d-table">
+                                <div class="d-table-cell">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-6">
+                                                <div class="hero-contents">
+                                                <span class="hero-counter animated slideInUp"
+                                                      style="opacity: 1;"></span>
+                                                    <h1 class="animated fadeInLeft" style="opacity: 1;">Эксклюзивный<br>Дизайн
+                                                        интерьера</h1>
+                                                    <p class="animated fadeInRight" style="opacity: 1;">Покажем как
+                                                        будет
+                                                        выглядить ваша квартира или дом за 10 дней! По вашим
+                                                        желаниям!</p>
+                                                    <a href="#port">
+                                                        <button class="btn button-primary animated slideInDown"
+                                                                style="opacity: 1;">Наши проекты
+                                                        </button>
+                                                    </a>
+                                                    <button class="btn button-secondary-white preview-block__btn custom-btn animated slideInDown"
+                                                            data-toggle="modal" data-target="#exampleModal"
+                                                            style="opacity: 1;">Задать вопрос
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="date">500 - выполненых объектов!</span>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 1941px;">
+                        <div class="hero-slider-item bg-three">
+                            <div class="d-table">
+                                <div class="d-table-cell">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-6">
+                                                <div class="hero-contents">
+                                                <span class="hero-counter animated slideInUp"
+                                                      style="opacity: 1;"></span>
+                                                    <h1 class="animated fadeInLeft" style="opacity: 1;">Качественный
+                                                        ремонт<br>Домов в Москве</h1>
+                                                    <p class="animated fadeInRight" style="opacity: 1;">Ремонт дома или
+                                                        коттеджа за 50 дней в Москве и области от 2000 руб/м2. С
+                                                        гарантией 3
+                                                        года!</p>
+                                                    <a href="#port">
+                                                        <button class="btn button-primary animated slideInDown"
+                                                                style="opacity: 1;">Наши проекты
+                                                        </button>
+                                                    </a>
+                                                    <button class="btn button-secondary-white preview-block__btn custom-btn animated slideInDown"
+                                                            data-toggle="modal" data-target="#exampleModal"
+                                                            style="opacity: 1;">Задать вопрос
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="date">Скидки на материалы 20%</span>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 1941px;">
+                        <div class="hero-slider-item bg-one">
+                            <div class="d-table">
+                                <div class="d-table-cell">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-6">
+                                                <div class="hero-contents">
+                                                <span class="hero-counter animated slideInUp"
+                                                      style="opacity: 1;"></span>
+                                                    <h1 class="animated fadeInLeft" style="opacity: 1;">Качественный
+                                                        ремонт<br>квартир в Москве</h1>
+                                                    <p class="animated fadeInRight" style="opacity: 1;">Ремонт квартир
+                                                        за 50
+                                                        дней в Москве и Москвоской области от 1500 руб/м2. С гарантией 3
+                                                        года!</p>
+                                                    <a href="#port">
+                                                        <button class="btn button-primary animated slideInDown"
+                                                                style="opacity: 1;">Наши проекты
+                                                        </button>
+                                                    </a>
+                                                    <button class="btn button-secondary-white preview-block__btn custom-btn animated slideInDown"
+                                                            data-toggle="modal" data-target="#exampleModal"
+                                                            style="opacity: 1;">Задать вопрос
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="date">Более 10 лет работы!</span>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 1941px;">
+                        <div class="hero-slider-item bg-two">
+                            <div class="d-table">
+                                <div class="d-table-cell">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-6">
+                                                <div class="hero-contents">
+                                                <span class="hero-counter animated slideInUp"
+                                                      style="opacity: 1;"></span>
+                                                    <h1 class="animated fadeInLeft" style="opacity: 1;">Эксклюзивный<br>Дизайн
+                                                        интерьера</h1>
+                                                    <p class="animated fadeInRight" style="opacity: 1;">Покажем как
+                                                        будет
+                                                        выглядить ваша квартира или дом за 10 дней! По вашим
+                                                        желаниям!</p>
+                                                    <a href="#port">
+                                                        <button class="btn button-primary animated slideInDown"
+                                                                style="opacity: 1;">Наши проекты
+                                                        </button>
+                                                    </a>
+                                                    <button class="btn button-secondary-white preview-block__btn custom-btn animated slideInDown"
+                                                            data-toggle="modal" data-target="#exampleModal"
+                                                            style="opacity: 1;">Задать вопрос
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="date">500 - выполненых объектов!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-nav">
+                <button type="button" role="presentation" class="owl-prev"><img src="assets/img/icons/arrow-prev.png">
+                </button>
+                <button type="button" role="presentation" class="owl-next"><img src="assets/img/icons/arrow-next.png">
+                </button>
+            </div>
+            <div class="owl-dots disabled"></div>
+        </div>
+
+        <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-vk"></i></a></li>
+            <li><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+
+        </ul>
+        <span class="copy-right">© Все права защищены 2024</span>
+
+        <a href="#about-section" class="scroll-icon smooth-scroll"></a>
+
+        <span class="video-play" data-toggle="modal" data-target=".hero-video-modal"><img
+                    src="assets/img/icons/video-play.png" alt="">Видео Проект</span>
+
+        <div class="modal fade bd-example-modal-lg hero-video-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <!--iframe class="embed-responsive-item" src="https://www.youtube.com/embed/isTXSavwoSk"
+                                allowfullscreen=""></iframe-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="rating-section">
+        <div class="rating-item bg-one">
+            <div class="icon">
+                <img src="assets/img/icons/design.png" class="default-icon" alt="">
+                <img src="assets/img/icons/design-light.png" class="hover-icon" alt="">
+            </div>
+            <h3>Фиксируем цену в договоре</h3>
+            <p>Перед началом сотрудничества прописываем в договоре, что цена сметы с момента заключения договора не
+                меняется
+                до конца хода работ!</p>
+
+        </div>
+        <div class="rating-item bg-two">
+            <div class="icon">
+                <img src="assets/img/icons/award.png" class="default-icon" alt="">
+                <img src="assets/img/icons/award-light.png" class="hover-icon" alt="">
+            </div>
+            <h3>Скидки на материалы</h3>
+            <p>Мы закупаем строительные материалы, расходники и другие изделия для ремонта у лучших поставщиков Москвы
+                по
+                оптовым ценам.</p>
+
+        </div>
+        <div class="rating-item bg-three">
+            <div class="icon">
+                <img src="assets/img/icons/support.png" class="default-icon" alt="">
+                <img src="assets/img/icons/support-light.png" class="hover-icon" alt="">
+            </div>
+            <h3>Бесплатная смета</h3>
+            <p>Компания «PLAKOZ» предлагает составить смету ремонта квартиры абсолютно бесплатно при заказе любого вида
+                ремонта.</p>
+
+        </div>
+        <div class="rating-item bg-four">
+            <div class="icon">
+                <img src="assets/img/icons/consultation.png" class="default-icon" alt="">
+                <img src="assets/img/icons/consultation-light.png" class="hover-icon" alt="">
+            </div>
+            <h3>Скидки и акции на отделку</h3>
+            <p>Предоставляем гибкую систему скидок, партнерские программы у крупнейших поставщиков и проводим сезонные
+                акции!</p>
+
+        </div>
+        <div class="rating-item bg-five">
+            <div class="icon">
+                <img src="assets/img/icons/delivery.png" class="default-icon" alt="">
+                <img src="assets/img/icons/delivery-light.png" class="hover-icon" alt="">
+            </div>
+            <h3>Дизайн-проект в подарок</h3>
+            <p>При заказе Евроремонта квартиры, не менее 80 кв/2м, бесплатно создадим для вас дизайн проект будущей
+                квартиры!</p>
+
+        </div>
+    </section>
+    <p><a name="info"></a></p>
+    <section id="about-section-two">
         <div class="container">
-            {{ text| raw }}
+            <div class="row">
+                <div class="col-md-6 order-2 order-md-1">
+                    <div class="about-section-left wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                        <div class="image-box">
+                            <img src="assets/img/about-section/4.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <p class="years-of-success" style="text-align: center;"><span class="knockout">10</span><br>Лет
+                                успешной работы!</p>
+                        </div>
+
+                        <div class="pgwSlider listOnTheLeft wide">
+                            <div class="ps-current" style="height: 0px;"><span class="ps-prev"
+                                                                               style="display: block;"><img
+                                            src="assets/img/icons/arrow-prev-small.png"></span>
+                                <ul>
+                                    <li class="elt_1" style="display: none; opacity: 0; z-index: 1;"><img
+                                                src="assets/img/about-section/5.jpg" alt=""></li>
+                                    <li class="elt_2" style="z-index: 2; display: list-item; opacity: 1;"><img
+                                                src="assets/img/about-section/6.jpg" alt=""></li>
+                                    <li class="elt_3" style="z-index: 1; display: none; opacity: 0;"><img
+                                                src="assets/img/about-section/7.jpg" alt=""></li>
+                                </ul>
+                                <span class="ps-caption"></span><span class="ps-next" style="display: block;"><img
+                                            src="assets/img/icons/arrow-next-small.png"></span></div>
+                            <div class="listOnTheLeft wide ps-list">
+                                <div class="ps-current" style="height: 0px;"><span class="ps-prev"
+                                                                                   style="display: block;"><img
+                                                src="assets/img/icons/arrow-prev-small.png"></span><span class="ps-prev"
+                                                                                                         style="display: block;"><img
+                                                src="assets/img/icons/arrow-prev-small.png"></span>
+                                    <ul>
+                                        <li class="elt_1" style="opacity: 0; z-index: 1; display: none;"><img
+                                                    src="assets/img/about-section/5.jpg" alt=""></li>
+                                        <li class="elt_2" style="z-index: 2; display: list-item; opacity: 1;"><img
+                                                    src="assets/img/about-section/6.jpg" alt=""></li>
+                                        <li class="elt_3" style="z-index: 1; opacity: 0; display: none;"><img
+                                                    src="assets/img/about-section/7.jpg" alt=""></li>
+                                        <li class="elt_1" style="display: none; opacity: 0; z-index: 1;"><img
+                                                    src="assets/img/about-section/5.jpg" alt=""></li>
+                                        <li class="elt_2" style="z-index: 2; display: list-item; opacity: 1;"><img
+                                                    src="assets/img/about-section/6.jpg" alt=""></li>
+                                        <li class="elt_3" style="z-index: 1; display: none; opacity: 0;"><img
+                                                    src="assets/img/about-section/7.jpg" alt=""></li>
+                                    </ul>
+                                    <span class="ps-caption"></span><span class="ps-next" style="display: block;"><img
+                                                src="assets/img/icons/arrow-next-small.png"></span><span class="ps-next"
+                                                                                                         style="display: block;"><img
+                                                src="assets/img/icons/arrow-next-small.png"></span></div>
+                                <ul class="ps-list">
+                                    <li class="elt_1"
+                                        style="cursor: pointer; opacity: 0.6; border: 2px solid rgb(221, 221, 221); width: 33.3333%; height: 0px;">
+                                        <img src="assets/img/about-section/5.jpg" alt=""></li>
+                                    <li class="elt_2"
+                                        style="cursor: pointer; opacity: 1; border: 2px solid rgb(197, 164, 126); width: 33.3333%; height: 0px;">
+                                        <img src="assets/img/about-section/6.jpg" alt=""></li>
+                                    <li class="elt_3"
+                                        style="cursor: pointer; opacity: 0.6; border: 2px solid rgb(221, 221, 221); width: 33.3333%; height: 0px;">
+                                        <img src="assets/img/about-section/7.jpg" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-1 order-md-2 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="about-section-right">
+                        <h2>С нами удобно и красиво!</h2>
+                        <p class="lead">Компания «PLAKOZ» готова выполнить для вас ремонт офисов под ключ и
+                            косметический
+                            ремонт жилых квартир. Мы готовы предложить для вас комплексные услуги по отделке помещений и
+                            созданию фирменного интерьера. Создадим эксклюзивный дизайн-проект и воплотим его в жизнь в
+                            короткие сроки.</p>
+                        <p class="lead">Вам больше не придется заниматься самостоятельным ремонтом или искать сторонних
+                            подрядчиков на каждый отдельный вид работ. Разработаем для вас уникальную интерьерную
+                            концепцию
+                            по индивидуальным требованиям и превратим помещения в уютные комнаты с современной
+                            отделкой.</p>
+                        <a href="#port">
+                            <button class="btn button-primary">Наши проекты</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Featured CLients -->
-    <!--section class="featured-client section-bottom">
+
+    <p><a name="price"></a></p>
+    <section id="team-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center border p-4">
-                        <div class="row align-items-center">
-                            <div class="col-lg-4 col-sm-12">
-                                <span class="h5">Featured by companies like:</span>
-                            </div>
-                            <div class="col-lg-2 col-sm-3">
-                                <img src="images/client/client-1.png" alt="" class="img-fluid">
+                <div class="col-md-12 text-center wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="section-header">
+                        <h2>Виды ремонта, которые мы выполняем</h2>
+                        <p>Компания «PLAKOZ» проведет качественный ремонт квартир в Москве, составит эксклюзивный дизайн
+                            проект интерьера квартиры по выгодным ценам, сделает дизайнерский ремонт под ключ.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="team-item">
+                        <div class="image-box">
+                            <img src="assets/img/team/1.jpg" alt="">
+
+                        </div>
+                        <h4>Ремонт эконом класса</h4>
+                        <p>Недорогой ремонт квартиры или офиса в краткие сроки без потери
+                            качества.<br><br><b>Реализация:</b> до 30 дней<br><b>Стоимость:</b> от 1300 Руб/км2</p>
+                        <p>
+                        </p></div>
+                </div>
+                <div class="col-sm-6 col-md-3 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="team-item">
+                        <div class="image-box">
+                            <img src="assets/img/team/2.jpg" alt="">
+
+                        </div>
+                        <h4>Евроремонт</h4>
+                        <p>Комплексный ремонт квартиры или офиса по европейским стандартам.<br><br><b>Реализация:</b> до
+                            50
+                            дней<br><b>Стоимость:</b> от 2300 Руб/км2</p>
+                        <p>
+                        </p></div>
+                </div>
+                <div class="col-sm-6 col-md-3 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="team-item">
+                        <div class="image-box">
+                            <img src="assets/img/team/3.jpg" alt="">
+
+                        </div>
+                        <h4>Элитный ремонт</h4>
+                        <p>Раскошный ремонт квартир, для тех кто выбирет и ценит самое лучшее.<br><br><b>Реализация:</b>
+                            Индивидуально<br><b>Стоимость:</b> Индивидуально</p>
+                        <p>
+                        </p></div>
+                </div>
+                <div class="col-sm-6 col-md-3 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="team-item">
+                        <div class="image-box">
+                            <img src="assets/img/team/4.jpg" alt="">
+
+                        </div>
+                        <h4>Ремонт частного дома</h4>
+                        <p>Ремонт к частном доме, включает в себя эконом, элитный или
+                            евроремонт.<br><br><b>Реализация:</b>
+                            Индивидуально<br><b>Стоимость:</b> Индивидуально</p>
+                        <p>
+                        </p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Оставьте заявку на бесплатный замер и консультацию</h3>
+                    <p>Наш специалист свяжеться с вами в течении 1 часа, для уточнения деталей.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="cta-right">
+                        <button class="btn button-secondary-white preview-block__btn custom-btn" data-toggle="modal"
+                                data-target="#exampleModal">Заказать консультацию
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="service-section-two">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="section-header">
+
+                        <h2>Виды домов для<br> выполнения работы</h2>
+                        <p>Выполним работы по ремонту и отделки квартир в любых типах домов, от сталинки и новостройки
+                            до
+                            частного дома.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="service-item">
+                        <img src="assets/img/services/1.jpg" alt="">
+                        <h3>Хрущевки</h3>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="service-item">
+                        <img src="assets/img/services/2.jpg" alt="">
+                        <h3>Сталинки</h3>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="service-item">
+                        <img src="assets/img/services/3.jpg" alt="">
+                        <h4>Брежневки</h4>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="service-item">
+                        <img src="assets/img/services/4.jpg" alt="">
+                        <h3>Новостройки</h3>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="service-item">
+                        <img src="assets/img/services/5.jpg" alt="">
+                        <h3>Дома серии п44т</h3>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="service-item">
+                        <img src="assets/img/services/6.jpg" alt="">
+                        <h3>Коттеджи и частные дома</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured-section-two">
+        <div class="container">
+            <div class="row wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                <div class="col-md-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="featured-item">
+                        <span class="number">01</span>
+                        <h3>Оставить заявку</h3>
+                        <p>Вам стоит всего лишь позвонить нам и мы об о всем договоримся и подпишем договор о
+                            работах.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="featured-item">
+                        <span class="number">02</span>
+                        <h3>Начало работ</h3>
+                        <p>Начинаем создавать визуальный дизайн, после того как Вам понравиться, мы начинаем выполение
+                            работ.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="featured-item">
+                        <span class="number">03</span>
+                        <h3>Проверка и сдача</h3>
+                        <p>Вы проверяете качество ремонта и оплачиваете по договору, без наценок и скрытых коммисий.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="section-header">
+
+                        <h2>Ответы на интересующие вопросы</h2>
+                        <p>Самые частые вопросы которые нам задают в процессе нашего общения, если вы не нашли
+                            интересующий
+                            вопрос, свяжитесь с нами.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="faq-featured-image">
+                        <img src="assets/img/faq/1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                    <div class="accordion" id="accordionOne">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseOne">
+                                        Кто выполняет ремонт?
+                                        <img class="arrow-icon" src="assets/img/icons/arrow-up-dark.png" alt="">
+                                    </button>
+                                </h3>
                             </div>
 
-                            <div class="col-lg-2 col-sm-3">
-                                <img src="images/client/client-2.png" alt="" class="img-fluid">
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                 data-parent="#accordionOne"
+                                 style="">
+                                <div class="card-body">
+                                    90% нашего персонала составляет технический отдел. Мы строго отбираем персонал. Все
+                                    работники – это русские, жители Москвы, с Российским гражданством и пропиской.
+                                </div>
                             </div>
-                            <div class="col-lg-2 col-sm-3">
-                                <img src="images/client/client-3.png" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                        Кто купит строительный материал?
+                                        <img class="arrow-icon" src="assets/img/icons/arrow-up-dark.png" alt="">
+                                    </button>
+                                </h3>
                             </div>
-                            <div class="col-lg-2 col-sm-3">
-                                <img src="images/client/client-4.png" alt="" class="img-fluid">
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                 data-parent="#accordionOne"
+                                 style="">
+                                <div class="card-body">
+                                    Мы обеспечиваем полное снабжение наших объектов всеми необходимыми материалами. Цены
+                                    на
+                                    материалы ниже рыночных, за счет больших объемов закупок у прямых поставщиков.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                        Какую гарантию вы даёте и на сколько?
+                                        <img class="arrow-icon" src="assets/img/icons/arrow-up-dark.png" alt="">
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                 data-parent="#accordionOne" style="">
+                                <div class="card-body">
+                                    Мы даём гарантию 2 года на все проделанные нами работы и материалы, купленные нами,
+                                    или
+                                    по нашей рекомендации. Мы уверены только в качественных материалах и надёжных
+                                    поставщиках.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                        Выносите ли вы мусор? Разгружаете ли материал?
+                                        <img class="arrow-icon" src="assets/img/icons/arrow-up-dark.png" alt="">
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                 data-parent="#accordionOne" style="">
+                                <div class="card-body">
+                                    Да, разгрузку материала, купленного нами — мы производим. Мы не производим доставку
+                                    и
+                                    разгрузку материалов, только если заказчик использует и закупает свои материалы
+                                    самостоятельно.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseFive" aria-expanded="false"
+                                            aria-controls="collapseFive">
+                                        Делает ли ваша компания дизайн-проект?
+                                        <img class="arrow-icon" src="assets/img/icons/arrow-up-dark.png" alt="">
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                 data-parent="#accordionOne" style="">
+                                <div class="card-body">
+                                    Да мы можем помочь Вам в подготовке и создании дизайн-проекта. Обсудим это
+                                    индивидуально. При заказе Евроремонта квартиры, не менее 80 кв/2м, бесплатно
+                                    создадим
+                                    дизайн проект будущей квартиры!
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -39,5 +744,311 @@
             </div>
         </div>
     </section>
+
+    <section id="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Вы можете побывать на действующих объектах</h3>
+                    <p>Вы увидите процесс ремонтных работ. Познакомитесь со строителями и мастерами.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="cta-right">
+                        <button class="btn button-secondary-white preview-block__btn custom-btn" data-toggle="modal"
+                                data-target="#exampleModal">Записаться на просмотр
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p><a name="port"></a></p>
+    <section id="portfolio-section-three" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Выполненые проекты за 2024 год</h2></div>
+
+            </div>
+        </div>
+        <div class="portfolio-item-list" style="position: relative; height: 762.5px;">
+            <div class="portfolio-item-sizer"></div>
+            <div class="portfolio-item has-gutter architecture" style="position: absolute; left: 0%; top: 0px;">
+                <div class="inner">
+                    <img src="assets/img/portfolio-three/1.jpg" alt="">
+                    <div class="overlay">
+                        <div class="contents">
+                            <a href="assets/img/portfolio-three/1.jpg" data-lightbox="portfolio-item" data-title=""><i
+                                        class="fas fa-search-plus"></i></a>
+                            <small class="small-secondary">Проект #1</small>
+                            <h3>Евроремонт квартиры</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item has-gutter interior" style="position: absolute; left: 25%; top: 0px;">
+                <div class="inner">
+                    <img src="assets/img/portfolio-three/2.jpg" alt="">
+                    <div class="overlay">
+                        <div class="contents">
+                            <a href="assets/img/portfolio-three/2.jpg" data-lightbox="portfolio-item"
+                               data-title="Interior Project 1"><i class="fas fa-search-plus"></i></a>
+                            <small class="small-secondary">Проект #2</small>
+                            <h3>Евроремонт квартиры</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item has-gutter commercial" style="position: absolute; left: 50%; top: 0px;">
+                <div class="inner">
+                    <img src="assets/img/portfolio-three/3.jpg" alt="">
+                    <div class="overlay">
+                        <div class="contents">
+                            <a href="assets/img/portfolio-three/3.jpg" data-lightbox="portfolio-item"
+                               data-title="Commercial Project 1"><i class="fas fa-search-plus"></i></a>
+                            <small class="small-secondary">Проект #3</small>
+                            <h3>Евроремонт квартиры</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item has-gutter interior" style="position: absolute; left: 75%; top: 0px;">
+                <div class="inner">
+                    <img src="assets/img/portfolio-three/4.jpg" alt="">
+                    <div class="overlay">
+                        <div class="contents">
+                            <a href="assets/img/portfolio-three/4.jpg" data-lightbox="portfolio-item"
+                               data-title="Interior Project 2"><i class="fas fa-search-plus"></i></a>
+                            <small class="small-secondary">Проект #4</small>
+                            <h3>Евроремонт квартиры</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item has-gutter commercial" style="position: absolute; left: 0%; top: 381.25px;">
+                <div class="inner">
+                    <img src="assets/img/portfolio-three/5.jpg" alt="">
+                    <div class="overlay">
+                        <div class="contents">
+                            <a href="assets/img/portfolio-three/5.jpg" data-lightbox="portfolio-item"
+                               data-title="Commercial Project 2"><i class="fas fa-search-plus"></i></a>
+                            <small class="small-secondary">Проект #5</small>
+                            <h3>Евроремонт квартиры</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item has-gutter architecture" style="position: absolute; left: 25%; top: 381.25px;">
+                <div class="inner">
+                    <img src="assets/img/portfolio-three/6.jpg" alt="">
+                    <div class="overlay">
+                        <div class="contents">
+                            <a href="assets/img/portfolio-three/6.jpg" data-lightbox="portfolio-item"
+                               data-title="Architecture Project 2"><i class="fas fa-search-plus"></i></a>
+                            <small class="small-secondary">Проект #6</small>
+                            <h3>Евроремонт квартиры</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item has-gutter architecture" style="position: absolute; left: 50%; top: 381.25px;">
+                <div class="inner">
+                    <img src="assets/img/portfolio-three/7.jpg" alt="">
+                    <div class="overlay">
+                        <div class="contents">
+                            <a href="assets/img/portfolio-three/7.jpg" data-lightbox="portfolio-item"
+                               data-title="Architecture Project 1"><i class="fas fa-search-plus"></i></a>
+                            <small class="small-secondary">Проект #7</small>
+                            <h3>Евроремонт квартиры</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item has-gutter interior" style="position: absolute; left: 75%; top: 381.25px;">
+                <div class="inner">
+                    <img src="assets/img/portfolio-three/8.jpg" alt="">
+                    <div class="overlay">
+                        <div class="contents">
+                            <a href="assets/img/portfolio-three/8.jpg" data-lightbox="portfolio-item"
+                               data-title="Interior Project 1"><i class="fas fa-search-plus"></i></a>
+                            <small class="small-secondary">Проект #8</small>
+                            <h3>Евроремонт квартиры</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p><a name="otziv"></a></p>
+    <section id="awards-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Отзывы о нашей работе</h2> <br><br>
+                </div>
+
+                <div class="col-md-4 col-xl-3">
+
+                    <small class="small-primary">Компания «PLAKOZ»</small>
+                    <h2>2009 - 2024</h2>
+                    <p>Мы работаем уже более 10 лет, и за это время у нас накопилось много отзывов о нашей работе, вот
+                        несколько из них.<br><br> Пожалуйста оставляйте отзывы о нашей работе на сайте Flamp.ru. Для нас
+                        это
+                        важно, это нас воодушевляет!</p>
+                    <div class="mb-5 d-block d-md-none"></div>
+                </div>
+                <div class="col-md-4 offset-xl-1">
+                    <div class="awards-item">
+
+                        <h3>Александр Савельев</h3>
+                        <p>Квартиру под ключ нам сдали за 2 месяца, была проделана капиталка, думали, что на нашу трёшку
+                            гораздо больше времени понадобится. Всё сделали качественно, специалисты очень
+                            ответственные, а
+                            главное, что смета на завершающем этапе не изменилась, как это зачастую бывает.</p>
+                    </div>
+                    <div class="awards-item">
+
+                        <h3>Александр Савельев</h3>
+                        <p>Квартиру под ключ нам сдали за 2 месяца, была проделана капиталка, думали, что на нашу трёшку
+                            гораздо больше времени понадобится. Всё сделали качественно, специалисты очень
+                            ответственные, а
+                            главное, что смета на завершающем этапе не изменилась, как это зачастую бывает.</p>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="awards-item">
+
+                        <h3>Александр Савельев</h3>
+                        <p>Квартиру под ключ нам сдали за 2 месяца, была проделана капиталка, думали, что на нашу трёшку
+                            гораздо больше времени понадобится. Всё сделали качественно, специалисты очень
+                            ответственные, а
+                            главное, что смета на завершающем этапе не изменилась, как это зачастую бывает.</p>
+                    </div>
+                    <div class="awards-item">
+
+                        <h3>Александр Савельев</h3>
+                        <p>Квартиру под ключ нам сдали за 2 месяца, была проделана капиталка, думали, что на нашу трёшку
+                            гораздо больше времени понадобится. Всё сделали качественно, специалисты очень
+                            ответственные, а
+                            главное, что смета на завершающем этапе не изменилась, как это зачастую бывает.</p>
+                    </div>
+
+                    <br><br>
+                </div>
+                <br><br>
+                <!--div class="col-md-12 text-center">
+                    <h3>Читать еще отзывы на <a href="flamp.ru" style="color: #007bff;">Flamp.ru</a></h3> <br><br>
+                </div-->
+            </div>
+        </div>
+    </section>
+
+
+    <section id="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Закажите ремонт квартиры зимой</h3>
+                    <p>И получите индивидуальную скидку 20% на выполнение работ по отделке помещения.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="cta-right">
+                        <button class="btn button-secondary-white preview-block__btn custom-btn" data-toggle="modal"
+                                data-target="#exampleModal">Узнать подробнее
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <p><a name="contact"></a></p>
+    <section id="contact-section-two">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-2 order-md-1">
+                    <br><br>
+                    <h2>Контакты</h2>
+                    <p>Компания «PLAKOZ» проведет качественный ремонт квартир<br> в Москве под ключ.</p>
+                    <p><strong>Адрес:</strong> Россия, г. Москва, ул.Ленина 43а, офис 105<br><br>
+                        <strong>Телефон:</strong> <a href="tel:8-(999)-999-9999">8-(999)-999-9999</a> <br><br>
+                        <strong>Почта:</strong> <a href="mailto:myemail@kyanite.com">remont-kvar@info.ru</a></p>
+                    <br>
+
+                </div>
+
+                <div class="col-md-6 order-1 order-md-2 text-center ">
+                    <br><br>
+                    <h2>Наши Социальные сети</h2>
+                    <p><a href="https://instagram.com/plakoz?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><strong>Инстаграм <i class="fab fa-instagram"></i></strong></a><strong> &nbsp;&nbsp;
+                            <a href="#">Вконтакте <i class="fab fa-vk"></i></a> &nbsp;&nbsp;
+                             <br>
+                    <iframe src="https://yandex.ru/map-widget/v1/-/CGeSVX6N" width="100%" height="150" frameborder="1"
+                            allowfullscreen="true"></iframe>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Заказ звонка -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Заказать звонок / Задать вопрос</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="contactForm"  method="post">
+                        <div class="form-group">
+                            <label for="name">Ваше имя:</label>
+                            <input id="name" class="form-control" name="name" required="" type="text"
+                                   placeholder="Иванов Иван Иванович">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Ваш телефон:</label>
+                            <input id="phone" class="form-control" name="phone" required="" type="text"
+                                   placeholder="+7 (800) 000-00-00">
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input id="check" class="form-check-input" checked="" type="checkbox">
+                            <label class="form-check-label" for="check">Я добровольно отправляю свои данные</label>
+                        </div>
+                        <button id="button" class="btn btn-success" type="submit">Отправить</button>
+                        <div class="result">
+                            <span id="answer"></span>
+                            <span id="loader" style="display:none"><img src="img/loader.gif" alt=""></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="scroll-to-top">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <div class="spinner-wrpr" style="display: none;">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
 
 {% endblock %}
