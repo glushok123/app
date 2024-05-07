@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Главная{% endblock %}
+
+{% block body %}
+    <!-- Banner -->
+    <section class="banner-main py-7" id="banner">
+        <div class="container">
+            {{ text| raw }}
+        </div>
+    </section>
+
+    <!-- Featured CLients -->
+    <!--section class="featured-client section-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center border p-4">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-sm-12">
+                                <span class="h5">Featured by companies like:</span>
+                            </div>
+                            <div class="col-lg-2 col-sm-3">
+                                <img src="images/client/client-1.png" alt="" class="img-fluid">
+                            </div>
+
+                            <div class="col-lg-2 col-sm-3">
+                                <img src="images/client/client-2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-lg-2 col-sm-3">
+                                <img src="images/client/client-3.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-lg-2 col-sm-3">
+                                <img src="images/client/client-4.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

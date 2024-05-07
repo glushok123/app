@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {{ book.name}} {% endblock %}
+
+{% block body %}
+
+    <section class="section">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <h1 class="text-center justify-content-center" style="width: 100%">{{ book.name}}</h1>
+                <hr style="border: black 1px solid; width: 100%">
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <img src="/upload/book/{{ book.cover }}" onerror="this.src='/upload/book/no-image.jpg'" width="300px">
+                </div>
+                <div class="col-12 col-md-8">
+                    {{ book.description | raw }}
+
+                </div>
+            </div>
+            <h5 class="btn" style="font-size: 20px;">{{ book.price }} ₽</h5>
+            <a href="#contact" class="btn btn-primary initBook" data-name="{{ book.name }}">Купить</a>
+        </div>
+    </section>
+
+    <section class="section-bottom others-book">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="pb-4">
+                        <h2>Что внутри:</h2>
+                        <a href="/upload/book/{{ book.pdf }}" class="btn btn-danger" target="_blank" download>
+                            Скачать PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                {% for image in book.imageBooks %}
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2">
+                        <div class="book-item mb-4 mb-lg-0">
+                            <img src="/upload/book/{{ image.name }}" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <style>
+
+    </style>
+{% endblock %}
